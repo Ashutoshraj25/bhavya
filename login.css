@@ -1,0 +1,93 @@
+body{
+    /* background-color: rgb(76, 0, 197); */
+    background-image: url(https://patientengagementhit.com/images/site/article_headers/_normal/Getty_Images_Appointment_Schedule.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form img{
+    background-color: rgb(37, 37, 37);
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -120px;
+    margin-left: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form{
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    
+    padding: 20px;
+    padding-top: 60px;
+    border-radius: 35px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+   
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+     border: solid white;
+    padding: 10px 40px;
+    border-width: 0px 0px 3px 0px;
+}
+.button a:hover{
+    border: solid rgb(160, 160, 160);
+    color: rgb(77, 77, 77);
+    border-width: 0px 0px 3px 0px;
+}
+form label{
+    color: rgb(165, 165, 165);
+}
+form input{
+    border: none;
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px;
+    outline: none;
+    background-color: rgb(141, 141, 141);
+}
+.details{
+    margin-top: 30px;
+}
+
+button{
+    background-color:rgb(0, 197, 89);
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:rgb(1, 170, 77);
+}
+.form a#forgot{
+    font-size: 12px;
+  color: rgb(141, 141, 141);
+}
+.form a#forgot:hover{
+    font-size: 12px;
+  color: rgb(194, 194, 194);
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
